@@ -181,7 +181,7 @@ nav a:hover{
 
 .header1{
   height: 750px;
-  background: url('Pictures/MainPhoto1.jpg') no-repeat center center;
+  background: url('Pictures/MainPicture2.jpg') no-repeat center center;
   overflow: hidden;
   background-size: cover;
   box-shadow: 1px 5px 5px;
@@ -189,7 +189,7 @@ nav a:hover{
 
 .header2{
   height: 750px;
-  background: url('Pictures/MainPhoto1.jpg') no-repeat center center;
+  background: url('Pictures/MainPhoto3.jpg') no-repeat center center;
   overflow: hidden;
   background-size: cover;
   box-shadow: 1px 5px 5px;
