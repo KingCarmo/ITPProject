@@ -209,12 +209,8 @@ span:hover{
   }
 }
 
-#leftdiv {
-  display: block;
-  height: 300px;
-  width: 200px;
-  background-color: #c0392b
+.maincontent{
+  width: 100%;
+  min-height: 100px;
 
 }
-
-#leftdiv:hover{}
