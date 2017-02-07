@@ -170,7 +170,6 @@ nav a:hover{
     }
 
 
-
 .header{
   height: 750px;
   background: url('Pictures/MainPhoto1.jpg') no-repeat center center;
@@ -229,4 +228,9 @@ span:hover{
   width: 100%;
   min-height: 100px;
 
+}
+
+.Paragraph{
+  text-align: center;
+  font-family: cd;
 }
