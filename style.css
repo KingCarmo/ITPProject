@@ -179,6 +179,22 @@ nav a:hover{
   box-shadow: 1px 5px 5px;
 }
 
+.header1{
+  height: 750px;
+  background: url('Pictures/MainPhoto1.jpg') no-repeat center center;
+  overflow: hidden;
+  background-size: cover;
+  box-shadow: 1px 5px 5px;
+}
+
+.header2{
+  height: 750px;
+  background: url('Pictures/MainPhoto1.jpg') no-repeat center center;
+  overflow: hidden;
+  background-size: cover;
+  box-shadow: 1px 5px 5px;
+}
+
 h1 {
   font-family: cd;
   text-align: center;
