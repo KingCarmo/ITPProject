@@ -234,3 +234,17 @@ span:hover{
   text-align: center;
   font-family: cd;
 }
+.Cocktails1{
+  font-family: cd;
+  float: left;
+  margin: 5%;
+}
+.Cocktails2{
+  font-family: cd;
+  float: right;
+  margin: 5%;
+}
+.Cocktails3{
+  font-family: cd;
+  margin-top: 5%;
+}
