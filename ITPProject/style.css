@@ -120,6 +120,10 @@ body{
   font-family: kc;
   src: url('fonts/KeepCalm.ttf');
 }
+@font-face {
+  font-family: ge;
+  src: url('fonts/generica.otf');
+}
 
 #container{
 width: 100%;
