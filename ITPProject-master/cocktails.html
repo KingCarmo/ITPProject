@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+    function openTab(evt, cityName) {
+    // Declare all variables
+    var i, tabcontent, tablinks;
+
+    // Get all elements with class="tabcontent" and hide them
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+
+    // Get all elements with class="tablinks" and remove the class "active"
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    // Show the current tab, and add an "active" class to the button that opened the tab
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+    }
+    document.getElementById("defaultOpen").click()
+    </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Cocktail Dreams</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="style.css" media="screen" title="no title">
+    <link rel="javascript" href="script.js">
+  </head>
+  <body>
+
+  <div id="container">
+    <div class="header1">
+    <div class="nav">
+      <div class="designed">
+        <p>
+          designed by french toast mafia.
+        </p>
+      <nav class="navbar">
+        <a href="index.html">HOME</a> |
+        <a href="cocktails.html">COCKTAILS</a> |
+        <a href="aboutus.html">About Us</a> |
+      </nav>
+        <h1><span>cocktail dreams.</span></h1>
+
+
+      </div>
+    </div>
+    </div>
+
+    <div class="tab">
+  <button class="tablinks" onclick="openTab(event, 'Beginner')" id="defaultOpen">Beginner</button>
+  <button class="tablinks" onclick="openTab(event, 'Intermediate')">Intermediate</button>
+  <button class="tablinks" onclick="openTab(event, 'Expert')">Expert</button>
+  <button class="tablinks" onclick="openTab(event, 'Summer')">Summer</button>
+  <button class="tablinks" onclick="openTab(event, 'Party')">Party</button>
+  <button class="tablinks" onclick="openTab(event, 'Premium')">Premium</button>
+</div>
+
+<div id="Beginner" class="tabcontent">
+  <div class="ParagraphCock"/>
+  <center><h2><u>Beginner</u></h2></center>
+  <p>
+    <a href="gimlet.html">
+      <h3>Gimlet</h3>
+  <img src="Pictures/gimlet.jpg" alt="Gimlet" style="height: 200px; width:200px;">
+</a>
+      <h3>Cosmopolitan</h3>
+      <img src="Pictures/Cocktails/Cosmo.jpg" alt="Cosmo" style="height: 200px; width:200px;">
+      <h3>Hemingway Daiquiri</h3>
+      <img src="Pictures/Cocktails/Daq.jpg" alt="Daiquiri" style="height: 200px; width:200px;">
+      <h3>Negroni</h3>
+      <img src="Pictures/Cocktails/Negroni.jpg" alt="Negroni" style="height: 200px; width:200px;">
+      <h3>Sidecar</h3>
+      <img src="Pictures/Cocktails/Sidecar.jpg" alt="Sidecar" style="height: 200px; width:200px;">
+</p>
+
+
+<div id="Intermediate" class="tabcontent">
+  <h3>Intermediate</h3>
+  <p><h2><u>Intermiediate</u></h2>
+    <h3>Blue Coconut</h3>
+    <img src="Pictures/Cocktails/Blue.jpg" alt="Blue Coconut" style="height: 200px; width:200px;">
+    <h3>Cake by the Ocean</h3>
+    <img src="Pictures/Cocktails/Daq.jpg" alt="Daiquiri" style="height: 200px; width:200px;">
+    <h3>Rainbow Sangria</h3>
+    <img src="Pictures/Cocktails/Rainbow.jpg" alt="Rainbow Sangria" style="height: 200px; width:200px;">
+    <h3>Malibu Sunset</h3>
+    <img src="Pictures/Cocktails/Malibu.jpg" alt="malibu" style="height: 200px; width:200px;">
+</p>
+</div>
+
+<div id="Expert" class="tabcontent">
+  <h3>Expert</h3>
+  <p></p>
+</div>
+</div>
+</div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+  </body>
+</html>
