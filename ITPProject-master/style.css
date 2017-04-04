@@ -372,3 +372,17 @@ div.tab button.active {
     from {opacity: 0;}
     to {opacity: 1;}
 }
+#frm{
+  border: solid gray 1px;
+  width:50%;
+  border-radius: 5px;
+  margin: 100px auto;
+  background: white;
+  padding: 50px;
+}
+#btn{
+  color: #fff;
+  background: #337ab7;
+  padding: 5px;
+  margin-left: 69%
+}
