@@ -66,7 +66,7 @@ span{
   font-weight: 700;
   text-transform: uppercase;
   font-family: cd;
-  color: white;
+  color: whiteParagraphCocktails
 }
 .info{
   color: black;
@@ -179,6 +179,7 @@ nav a{
 
     }
 
+
 nav a:hover{
     text-decoration: none;
     margin-top: 10px;
@@ -189,6 +190,18 @@ nav a:hover{
     font-weight: 700;
     text-transform: uppercase;
     }
+
+
+  nav a:hover{
+      text-decoration: none;
+      margin-top: 10px;
+      display: inline-block;
+      color: #F44336;
+      font-family: cd;
+      font-size: 60px;
+      font-weight: 700;
+      text-transform: uppercase;
+      }
 
 .header{
   height: 974px;
@@ -252,7 +265,7 @@ span:hover{
     padding: 0.2em 0.5em ;
     border: white solid 10px;
   }
-}
+
 
 .maincontent{
   color: #B71C1C;
@@ -284,26 +297,17 @@ span:hover{
   text-transform: uppercase;
 
 }
-.about-cock{
-text-align: center;
-font-size: 25px
-display: inline-block;
-color: #ecf0f1;
-font-family: kc;
-}
 
 .Paragraph{
   text-align: center;
   font-family: cd;
 }
-.ParagraphCock{
+.ParagraphCocktails{
   font-family: cd;
   text-align: center;
   line-height: 300px;
 }
-a:link{
-  color: black;
-}
+
 a:hover{
   color: #F44336;
 }
@@ -371,18 +375,4 @@ div.tab button.active {
 @keyframes fadeEffect {
     from {opacity: 0;}
     to {opacity: 1;}
-}
-#frm{
-  border: solid gray 1px;
-  width:50%;
-  border-radius: 5px;
-  margin: 100px auto;
-  background: white;
-  padding: 50px;
-}
-#btn{
-  color: #fff;
-  background: #337ab7;
-  padding: 5px;
-  margin-left: 69%
 }

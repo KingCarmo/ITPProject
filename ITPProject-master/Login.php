@@ -1,5 +1,10 @@
-<!DOCTYPE html>
-<<!DOCTYPE html>
+<?php
+/* Login.php */
+    session_start();
+    $_SESSION['message'] = '';
+    $mysqli = new mysqli("mysql2.gear.host", "logintestpeter", "peter!", "accounts");
+    ?>
+
 <html>
   <head>
     <meta charset="utf-8">
@@ -11,7 +16,7 @@
   </head>
   <body>
     <div id="container">
-      <div class="header">
+      <div class="header" style="position:absolute;z-index:0;left:0;top:0;width:100%;height:100%">
       <div class="nav">
         <div class="designed">
           <p>
@@ -22,20 +27,21 @@
           <a href="cocktails.html">COCKTAILS</a> |
           <a href="aboutus.html">About Us</a> |
         </nav>
-    <div id="frm">
-      <form action="process.php" method="POST">
-        <p>
-          <label>Username:</label>
-          <input type="text" id="user" name="user"/>
-        </p>
-        <p>
-          <label>Password</label>
-          <input type="password" id="pass" name="pass"/>
-        </p>
-        <p>
-          <input type="submit" id="btn" value="Login"/>
-        </p>
-    </div>
+        <link rel="stylesheet" href="LoginStyle.css" type="text/css">
+        <div class="body-content">
+          <div class="module">
+            <h1>Create an account</h1>
+            <form class="form" action="Process.php" method="post" enctype="multipart/form-data" autocomplete="off">
+              <div class="alert alert-error"><?= $_SESSION['message'] ?></div>
+              <input type="text" placeholder="User Name" name="username" required />
+              <input type="email" placeholder="Email" name="email" required />
+              <input type="password" placeholder="Password" name="password" autocomplete="new-password" required />
+              <input type="password" placeholder="Confirm Password" name="confirmpassword" autocomplete="new-password" required />
+              <div class="avatar"><label>Select your avatar: </label><input type="file" name="avatar" accept="image/*" required /></div>
+              <input type="submit" value="Register" name="register" class="btn btn-block btn-primary" />
+            </form>
+          </div>
+        </div>
   </div>
 </div>
 </div>

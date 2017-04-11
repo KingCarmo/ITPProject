@@ -1,21 +1,27 @@
---
--- Table structure for table `tz_members`
---
---
---
--- http://tutorialzine.com/2009/10/cool-login-system-php-jquery/
---
---
---
---
+DROP DATABASE IF EXISTS logintestpeter;
 
-CREATE TABLE `tz_members` (
-  `id` int(11) NOT NULL auto_increment,
-  `usr` varchar(32) collate utf8_unicode_ci NOT NULL default '',
-  `pass` varchar(32) collate utf8_unicode_ci NOT NULL default '',
-  `email` varchar(255) collate utf8_unicode_ci NOT NULL default '',
-  `regIP` varchar(15) collate utf8_unicode_ci NOT NULL default '',
-  `dt` datetime NOT NULL default '0000-00-00 00:00:00',
-  PRIMARY KEY  (`id`),
-  UNIQUE KEY `usr` (`usr`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+CREATE DATABASE logintestpeter;
+
+USE logintestpeter;
+
+CREATE TABLE `accounts`
+(
+    `id` INT NOT NULL AUTO_INCREMENT,
+    `username` VARCHAR(100) NOT NULL,
+    `email` VARCHAR(100) NOT NULL,
+    `password` VARCHAR(100) NOT NULL,
+    `avatar` VARCHAR(100) NOT NULL,
+PRIMARY KEY (`id`) 
+);
+
+INSERT INTO accounts VALUES (
+"","Peter","peter@peter.com","pass",""
+);
+
+INSERT INTO accounts VALUES (
+"","Peter2","peter22@peter.com","password",""
+);
+
+select *
+FROM accounts;
+
