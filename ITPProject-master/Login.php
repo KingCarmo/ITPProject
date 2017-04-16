@@ -2,7 +2,7 @@
 /* Login.php */
     session_start();
     $_SESSION['message'] = '';
-    $mysqli = new mysqli("mysql2.gear.host", "logintestpeter", "peter!", "accounts");
+    $mysqli = new mysqli("mysql2.gear.host", "logintestpeter", "peter!");
     ?>
 
 <html>
