@@ -29,9 +29,6 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Cocktail Dreams</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
     <link type="text/css" rel="stylesheet" href="style.css" media="screen" title="no title">
     <link type="text/css" rel="stylesheet" href="modal.css" media="screen" title="no title">
@@ -39,7 +36,6 @@
     <link rel="shortcut icon" type="image/png" href="Pictures/icon.png"/>
   </head>
   <body>
-
     <!-- PHP, Connecting Database -->
     <?php
 $servername = "mysql4.gear.host";
@@ -77,7 +73,8 @@ if ($conn->connect_error) {
 
     <center>
     <div class="tab">
-  <button class="tablinks" onclick="openTab(event, 'Beginner')">Beginner</button>
+
+  <button class="tablinks"  onclick="openTab(event, 'Beginner')">Beginner</button>
   <button class="tablinks" onclick="openTab(event, 'Intermediate')">Intermediate</button>
   <button class="tablinks" onclick="openTab(event, 'Expert')">Expert</button>
   <button class="tablinks" onclick="openTab(event, 'Summer')">Summer</button>
@@ -87,52 +84,38 @@ if ($conn->connect_error) {
 <div id="Beginner" class="tabcontent">
   <center><h2><u>Beginner</u></h2></center>
   <p>
-    <div class="container">
-      <!-- Trigger the modal with a button -->
-      <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Gimlet</button>
+    <!-- Trigger/Open The Modal -->
+    <button id="myBtn">Gimlet</button>
 
-      <!-- Modal -->
-      <div class="modal fade" id="myModal" role="dialog">
-        <div class="modal-dialog">
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
 
-          <!-- Modal content-->
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal">&times;</button>
-              <h4 class="modal-title">Gimlet</h4>
-            </div>
-            <div class="modal-body">
-              <div class="Paragraph">
-                <center>
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="Paragraph">
+          <center>
 
-                  <h2>Gimlet</h2>
-                <p><b>Ingredients:</b><br>
-                  1.5 oz Gin<br>
-                  0.5 oz Lime juice<br>
-                  0.5 oz Simple syrup<br>
-                  Fresh Lime<br>
-                </p>
-                <p><b>Instructions:</b><br>
-                  Add 1.5 oz of the best Gin you can afford, 0.5 oz of fresh Lime Juice,<br>
-                  and 0.5 oz Simple Syrup (made by boiling sugar and water) into pre-filled-<br>
-                  with-ice Cocktail shaker. Shake like your life depends on it. Pour into a pre-<br>
-                  chilled Cocktail glass. Garnish with a fresh lime and last but most imprtantly<br>
-                  <b>ENJOY!</b>
-                <h2> Premium Members Instruction Video </h2>
-                <video width="420" height="450" controls>
-                <source src="Pictures/Cocktails.mp4" type="video/mp4">
-              </video>
-            </center>
-          </div>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            </div>
-          </div>
-
-        </div>
+            <h2>Gimlet</h2>
+          <p><b>Ingredients:</b><br>
+            1.5 oz Gin<br>
+            0.5 oz Lime juice<br>
+            0.5 oz Simple syrup<br>
+            Fresh Lime<br>
+          </p>
+          <p><b>Instructions:</b><br>
+            Add 1.5 oz of the best Gin you can afford, 0.5 oz of fresh Lime Juice,<br>
+            and 0.5 oz Simple Syrup (made by boiling sugar and water) into pre-filled-<br>
+            with-ice Cocktail shaker. Shake like your life depends on it. Pour into a pre-<br>
+            chilled Cocktail glass. Garnish with a fresh lime and last but most imprtantly<br>
+            <b>ENJOY!</b>
+          <h2> Premium Members Instruction Video </h2>
+          <video width="700" height="450" controls>
+          <source src="Pictures/Cocktails.mp4" type="video/mp4">
+        </video>
+      </center>
+    </div>
       </div>
-
     </div>
 
   <img src="Pictures/gimlet.jpg" alt="Gimlet" style="height: 200px; width:200px;">
@@ -207,7 +190,32 @@ if ($conn->connect_error) {
 </div>
 </center>
 <script>
+// Get the modal
+var modal = document.getElementById('myModal');
 
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal
+btn.onclick = function() {
+modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+if (event.target == modal) {
+    modal.style.display = "none";
+}
+}
+</script>
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
