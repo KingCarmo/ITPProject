@@ -38,9 +38,9 @@
   <body>
     <!-- PHP, Connecting Database -->
     <?php
-$servername = "localhost";
-$username = "username";
-$password = "password";
+$servername = "mysql4.gear.host";
+$username = "cock";
+$password = "cocktails123!";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password);
