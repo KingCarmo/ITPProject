@@ -49,7 +49,6 @@ $conn = new mysqli($servername, $username, $password);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
-echo "Connected successfully";
 ?>
 
   <div id="container">
@@ -74,10 +73,15 @@ echo "Connected successfully";
 
     <center>
     <div class="tab">
+      <?php
   <button class="tablinks" onclick="openTab(event, 'Beginner')">Beginner</button>
+  ?>
   <button class="tablinks" onclick="openTab(event, 'Intermediate')">Intermediate</button>
+
   <button class="tablinks" onclick="openTab(event, 'Expert')">Expert</button>
+
   <button class="tablinks" onclick="openTab(event, 'Summer')">Summer</button>
+
   <button class="tablinks" onclick="openTab(event, 'Premium')">Premium</button>
 </div>
 
