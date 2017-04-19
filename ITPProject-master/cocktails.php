@@ -90,11 +90,9 @@ if ($conn->connect_error) {
     <div class="container">
       <!-- Trigger the modal with a button -->
       <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Gimlet</button>
-
       <!-- Modal -->
       <div class="modal fade" id="myModal" role="dialog">
         <div class="modal-dialog">
-
           <!-- Modal content-->
           <div class="modal-content">
             <div class="modal-header">
@@ -104,7 +102,6 @@ if ($conn->connect_error) {
             <div class="modal-body">
               <div class="Paragraph">
                 <center>
-
                   <h2>Gimlet</h2>
                 <p><b>Ingredients:</b><br>
                   1.5 oz Gin<br>
@@ -113,15 +110,14 @@ if ($conn->connect_error) {
                   Fresh Lime<br>
                 </p>
                 <p><b>Instructions:</b><br>
-                  Add 1.5 oz of the best Gin you can afford, 0.5 oz of fresh Lime Juice,<br>
-                  and 0.5 oz Simple Syrup (made by boiling sugar and water) into pre-filled-<br>
-                  with-ice Cocktail shaker. Shake like your life depends on it. Pour into a pre-<br>
+                  Add 1.5 oz of the best Gin you can afford, 0.5 oz of fresh Lime Juice,
+                  and 0.5 oz Simple Syrup (made by boiling sugar and water) into pre-filled-
+                  with-ice Cocktail shaker. Shake like your life depends on it. Pour into a pre-
                   chilled Cocktail glass. Garnish with a fresh lime and last but most imprtantly<br>
                   <b>ENJOY!</b>
                 <h2> Premium Members Instruction Video </h2>
-                <video width="420" height="450" controls>
-                <source src="Pictures/Cocktails.mp4" type="video/mp4">
-              </video>
+                <iframe src="https://www.youtube.com/watch?v=8vR1N8Cu-ew&feature=youtu.be"
+                 width="420" height="450" frameborder="0" allowfullscreen></iframe>
             </center>
           </div>
             </div>
@@ -134,16 +130,229 @@ if ($conn->connect_error) {
       </div>
 
     </div>
-
+    <br>
   <img src="Pictures/gimlet.jpg" alt="Gimlet" style="height: 200px; width:200px;">
+    <br>
+    <br>
 
-      <h3>Cosmopolitan</h3>
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#cosmo">Cosmopolitan</button>
+  <!-- Modal -->
+  <div class="modal fade" id="cosmo" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Gimlet</h4>
+        </div>
+        <div class="modal-body">
+          <div class="Paragraph">
+            <center>
+              <h2>Cosmopolitan</h2>
+            <p><b>Ingredients:</b><br>
+              1.5 oz Vodka Citron<br>
+              0.5 oz Cointreau<br>
+              1 oz Cranberry juice<br>
+              0.5 oz Fresh Lime Juice<br>
+              Fresh Lime<br>
+            </p>
+            <p><b>Instructions:</b><br>
+              Pour your Cointreau and cranberry juice into you gleaming cocktail shaker. Then
+              add the lime juice and cranberry juice before topping it off with your finest cheap
+              vodka citron. Add your ice and do the shaking thing. We all know thats the most fun part
+              Pour your freshly made cocktail into a chilled glass, garnish with a lime and then all you do is<br>
+              <b>ENJOY!</b><br>
+              <img src="Pictures/Cocktails/Cosmo.jpg" alt="Cosmo" style="height: 100px; width:100px;">
+        </center>
+      </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <br>
+  <br>
+
       <img src="Pictures/Cocktails/Cosmo.jpg" alt="Cosmo" style="height: 200px; width:200px;">
-      <h3>Hemingway Daiquiri</h3>
+      <br>
+      <br>
+
+      <!-- Trigger the modal with a button -->
+      <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#daq">Hemingway Daiquiri</button>
+      <!-- Modal -->
+      <div class="modal fade" id="daq" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Hemingway Daiquiri</h4>
+          </div>
+          <div class="modal-body">
+            <div class="Paragraph">
+              <center>
+                <h2>Hemingway Daiquiri</h2>
+              <p><b>Ingredients:</b><br>
+                2 oz White Rum<br>
+                0.5 oz Grapefruit Juice<br>
+                0.5 oz Maraschino liqueur<br>
+                Fresh Lime<br>
+              </p>
+              <p><b>Instructions:</b><br>
+                I'm sure you're starting to get the drill by now. Add your lush grapefruit juice on top
+                of your probably barely-affordable Maraschino liqueur. Your white rum goes in next, like
+                the boss it is. You put your frozen water (A.K.A 'ice') into your shaker and then user your
+                shaker as a maraca and go nuts. Then do the easiest bit of all, and also the best -<br>
+                <b>ENJOY!</b><br>
+                <img src="Pictures/Cocktails/Daq.jpg" alt="Daiquiri" style="height: 100px; width:100px;">
+          </center>
+        </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+
+      </div>
+      </div>
+      <br>
+      <br>
       <img src="Pictures/Cocktails/Daq.jpg" alt="Daiquiri" style="height: 200px; width:200px;">
-      <h3>Negroni</h3>
+      <br>
+      <br>
+
+    <!-- Trigger the modal with a button -->
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#cosmo">Cosmopolitan</button>
+    <!-- Modal -->
+    <div class="modal fade" id="cosmo" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Gimlet</h4>
+          </div>
+          <div class="modal-body">
+            <div class="Paragraph">
+              <center>
+                <h2>Cosmopolitan</h2>
+              <p><b>Ingredients:</b><br>
+                1.5 oz Vodka Citron<br>
+                0.5 oz Cointreau<br>
+                1 oz Cranberry juice<br>
+                0.5 oz Fresh Lime Juice<br>
+                Fresh Lime<br>
+              </p>
+              <p><b>Instructions:</b><br>
+                Pour your Cointreau and cranberry juice into you gleaming cocktail shaker. Then
+                add the lime juice and cranberry juice before topping it off with your finest cheap
+                vodka citron. Add your ice and do the shaking thing. We all know thats the most fun part
+                Pour your freshly made cocktail into a chilled glass, garnish with a lime and then all you do is<br>
+                <b>ENJOY!</b><br>
+                <img src="Pictures/Cocktails/Cosmo.jpg" alt="Cosmo" style="height: 100px; width:100px;">
+          </center>
+        </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <br>
+    <br>
+
+        <img src="Pictures/Cocktails/Cosmo.jpg" alt="Cosmo" style="height: 200px; width:200px;">
+        <br>
+        <br>
+
+        <!-- Trigger the modal with a button -->
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#negroni">Negroni</button>
+        <!-- Modal -->
+        <div class="modal fade" id="negroni" role="dialog">
+        <div class="modal-dialog">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Negroni</h4>
+            </div>
+            <div class="modal-body">
+              <div class="Paragraph">
+                <center>
+                  <h2>Negroni</h2>
+                <p><b>Ingredients:</b><br>
+                  1 oz Gin<br>
+                  1 oz Sweet Red Vermouth<br>
+                  1 oz Campari<br>
+                  Fresh Orange<br>
+                </p>
+                <p><b>Instructions:</b><br>
+                  This one's is an easy one, but take nothing away from it, its tasty. You know the drill
+                  Pour your one ounce of gin, your one ounce of Sweet Red and your one ounce campari all into your sweet
+                  cocktail shaker. Shake shake shake. Put in the glass. Garnish. Then last but not by no means least-<br>
+                  <b>ENJOY!</b><br>
+                  <img src="Pictures/Cocktails/Negroni.jpg" alt="Negroni" style="height: 100px; width:100px;">
+            </center>
+          </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+
+        </div>
+        </div>
+        <br>
+        <br>
       <img src="Pictures/Cocktails/Negroni.jpg" alt="Negroni" style="height: 200px; width:200px;">
-      <h3>Sidecar</h3>
+      <br>
+      <br>
+
+      <!-- Trigger the modal with a button -->
+      <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#side">Sidecar</button>
+      <!-- Modal -->
+      <div class="modal fade" id="side" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Sidecar</h4>
+          </div>
+          <div class="modal-body">
+            <div class="Paragraph">
+              <center>
+                <h2>Sidecar</h2>
+              <p><b>Ingredients:</b><br>
+                2 oz Cognac<br>
+                0.75 oz Lemon Juice<br>
+                0.75 oz triple sec<br>
+              </p>
+              <p><b>Instructions:</b><br>
+                You will NEVER believe what you have to do for this one. Its a game changer. So, what you do is
+                put your Cognac in a cocktail shaker (WOW!). Put your lemon juice into the cocktail shaker (NO WAY!).
+                Add your triple sec into the very same cocktail shaker (I DONT BELIEVE IT!). Then guess what you do, you
+                shake it. Shake again. Do it once more just to be safe. Then strain into a cocktail glass and as always -<br>
+                <b>ENJOY!</b><br>
+                <img src="Pictures/Cocktails/Negroni.jpg" alt="Negroni" style="height: 100px; width:100px;">
+          </center>
+        </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+
+      </div>
+      </div>
+      <br>
+      <br>
       <img src="Pictures/Cocktails/Sidecar.jpg" alt="Sidecar" style="height: 200px; width:200px;">
 </p>
 </div>
@@ -152,11 +361,145 @@ if ($conn->connect_error) {
 <div id="Intermediate" class="tabcontent">
   <div class="ParagraphCocktails"/>
   <p><h2><u>Intermediate</u></h2>
-    <h3>Blue Coconut</h3>
+    <br>
+    <br>
+
+    <!-- Trigger the modal with a button -->
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#blue">Blue Coconut</button>
+    <!-- Modal -->
+    <div class="modal fade" id="blue" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Blue Coconut</h4>
+        </div>
+        <div class="modal-body">
+          <div class="Paragraph">
+            <center>
+              <h2>Blue Coconut</h2>
+            <p><b>Ingredients:</b><br>
+              1 oz Blue Curacao<br>
+              1 oz Malibu Rum<br>
+              1 oz Passion fruit Rum<br>
+              3 oz Coconut Water<br>
+              1 oz Sprite<br>
+              Simple Syrup<br>
+              Granulated Sugar<br>
+            </p>
+            <p><b>Instructions:</b><br>
+              You will need two plates to complete this cocktail. Pour sugar and syrup on to two sepreate plates. Take
+              your glassware and dip the rims into first the syrup and then the sugar and then set your glass two one side.
+              Now do your usual and add all your ingredients into a cocktail shaker with ice. Then do your now well-practiced
+              shaking technique and shake the life out of your shaker. Then, as per usual, -<br>
+              <b>ENJOY!</b><br>
+              <img src="Pictures/Cocktails/Blue.jpg" alt="Negroni" style="height: 100px; width:100px;">
+        </center>
+      </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+    </div>
+    <br>
+    <br>
     <img src="Pictures/Cocktails/Blue.jpg" alt="Blue Coconut" style="height: 200px; width:200px;">
-    <h3>Cake by the Ocean</h3>
-    <img src="Pictures/Cocktails/Daq.jpg" alt="Daiquiri" style="height: 200px; width:200px;">
-    <h3>Rainbow Sangria</h3>
+    <br>
+    <br>
+
+    <!-- Trigger the modal with a button -->
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#cake">Cake By The Ocean</button>
+    <!-- Modal -->
+    <div class="modal fade" id="cake" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Cake by the Ocean</h4>
+        </div>
+        <div class="modal-body">
+          <div class="Paragraph">
+            <center>
+              <h2>Cake by the Ocean</h2>
+            <p><b>Ingredients:</b><br>
+              2 oz Cake favoured Vodka<br>
+              2 oz Coconut rum<br>
+              2 oz Pineapple juice<br>
+              2 oz Orange Juice<br>
+              Club Soda<br>
+              *optional*: Simple Syrup, Maraschino cherries, sprinkles, pineaplle and orange slices<br>
+            </p>
+            <p><b>Instructions:</b><br>
+              The usual, add your Vodka, rum and two juices into a cocktail shaker with ice.
+              If you want to dilute the cocktail a little bit, go ahead and add your club soda. To garnish,
+              use a cherry and/or wedges of pineapple and orange. To make a f
+              Pour your freshly made cocktail into a chilled glass, garnish with a lime and then all you do is<br>
+              <b>ENJOY!</b><br>
+              <img src="Pictures/Cocktails/Cake.png" alt="Cake" style="height: 100px; width:100px;">
+        </center>
+      </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+    </div>
+    <br>
+    <br>
+
+    <img src="Pictures/Cocktails/cake.png" alt="Daiquiri" style="height: 200px; width:200px;">
+    <br>
+    <br>
+
+    <!-- Trigger the modal with a button -->
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#rain">Rainbow Sangria</button>
+    <!-- Modal -->
+    <div class="modal fade" id="rain" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Rainbow Sangria</h4>
+        </div>
+        <div class="modal-body">
+          <div class="Paragraph">
+            <center>
+              <h2>Rainbow Sangria</h2>
+            <p><b>Ingredients:</b><br>
+              1 refrigerated bottle dry white wine<br>
+              1.5 oz Granulated Sugar/Honey<br>
+              2 oz Pineapple juice<br>
+              2 oz Orange Juice<br>
+              Club Soda<br>
+              *optional*: Simple Syrup, Maraschino cherries, sprinkles, pineaplle and orange slices<br>
+            </p>
+            <p><b>Instructions:</b><br>
+              The usual, add your Vodka, rum and two juices into a cocktail shaker with ice.
+              If you want to dilute the cocktail a little bit, go ahead and add your club soda. To garnish,
+              use a cherry and/or wedges of pineapple and orange. To make a f
+              Pour your freshly made cocktail into a chilled glass, garnish with a lime and then all you do is<br>
+              <b>ENJOY!</b><br>
+              <img src="Pictures/Cocktails/Cake.png" alt="Cake" style="height: 100px; width:100px;">
+        </center>
+      </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+    </div>
+    <br>
+    <br>
     <img src="Pictures/Cocktails/Rainbow.jpg" alt="Rainbow Sangria" style="height: 200px; width:200px;">
     <h3>Malibu Sunset</h3>
     <img src="Pictures/Cocktails/Malibu.jpg" alt="malibu" style="height: 200px; width:200px;">
