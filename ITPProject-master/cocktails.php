@@ -2,6 +2,7 @@
 <html>
   <head>
     <script>
+    //https://www.w3schools.com/howto/howto_js_tabs.asp
     function openTab(evt, cityName) {
     // Declare all variables
     var i, tabcontent, tablinks;
@@ -66,6 +67,7 @@ if ($conn->connect_error) {
         <a href="index.html">HOME</a> |
         <a href="cocktails.html">COCKTAILS</a> |
         <a href="aboutus.html">About Us</a> |
+        <a href="Login.php">Login</a>
       </nav>
         <center><img src="Pictures/Logo.png" alt="logo" style="width:1080px;height:500px;"></center>
 
@@ -114,10 +116,9 @@ if ($conn->connect_error) {
                   and 0.5 oz Simple Syrup (made by boiling sugar and water) into pre-filled-
                   with-ice Cocktail shaker. Shake like your life depends on it. Pour into a pre-
                   chilled Cocktail glass. Garnish with a fresh lime and last but most imprtantly<br>
-                  <b>ENJOY!</b>
+                  <b>ENJOY!</b></p>
                 <h2> Premium Members Instruction Video </h2>
-                <iframe src="https://www.youtube.com/watch?v=8vR1N8Cu-ew&feature=youtu.be"
-                 width="420" height="450" frameborder="0" allowfullscreen></iframe>
+                  <iframe width="420" height="350" src="https://www.youtube.com/embed/8vR1N8Cu-ew" frameborder="0" allowfullscreen></iframe>
             </center>
           </div>
             </div>
@@ -134,6 +135,10 @@ if ($conn->connect_error) {
   <img src="Pictures/gimlet.jpg" alt="Gimlet" style="height: 200px; width:200px;">
     <br>
     <br>
+    <br>
+    <br>
+
+
 
   <!-- Trigger the modal with a button -->
   <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#cosmo">Cosmopolitan</button>
@@ -162,7 +167,7 @@ if ($conn->connect_error) {
               add the lime juice and cranberry juice before topping it off with your finest cheap
               vodka citron. Add your ice and do the shaking thing. We all know thats the most fun part
               Pour your freshly made cocktail into a chilled glass, garnish with a lime and then all you do is<br>
-              <b>ENJOY!</b><br>
+              <b>ENJOY!</b><br></p>
               <img src="Pictures/Cocktails/Cosmo.jpg" alt="Cosmo" style="height: 100px; width:100px;">
         </center>
       </div>
@@ -180,6 +185,9 @@ if ($conn->connect_error) {
       <img src="Pictures/Cocktails/Cosmo.jpg" alt="Cosmo" style="height: 200px; width:200px;">
       <br>
       <br>
+      <br>
+      <br>
+
 
       <!-- Trigger the modal with a button -->
       <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#daq">Hemingway Daiquiri</button>
@@ -207,7 +215,7 @@ if ($conn->connect_error) {
                 of your probably barely-affordable Maraschino liqueur. Your white rum goes in next, like
                 the boss it is. You put your frozen water (A.K.A 'ice') into your shaker and then user your
                 shaker as a maraca and go nuts. Then do the easiest bit of all, and also the best -<br>
-                <b>ENJOY!</b><br>
+                <b>ENJOY!</b><br></p>
                 <img src="Pictures/Cocktails/Daq.jpg" alt="Daiquiri" style="height: 100px; width:100px;">
           </center>
         </div>
@@ -224,6 +232,9 @@ if ($conn->connect_error) {
       <img src="Pictures/Cocktails/Daq.jpg" alt="Daiquiri" style="height: 200px; width:200px;">
       <br>
       <br>
+      <br>
+      <br>
+
 
     <!-- Trigger the modal with a button -->
     <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#cosmo">Cosmopolitan</button>
@@ -252,7 +263,7 @@ if ($conn->connect_error) {
                 add the lime juice and cranberry juice before topping it off with your finest cheap
                 vodka citron. Add your ice and do the shaking thing. We all know thats the most fun part
                 Pour your freshly made cocktail into a chilled glass, garnish with a lime and then all you do is<br>
-                <b>ENJOY!</b><br>
+                <b>ENJOY!</b><br></p>
                 <img src="Pictures/Cocktails/Cosmo.jpg" alt="Cosmo" style="height: 100px; width:100px;">
           </center>
         </div>
@@ -266,6 +277,9 @@ if ($conn->connect_error) {
     </div>
     <br>
     <br>
+    <br>
+    <br>
+
 
         <img src="Pictures/Cocktails/Cosmo.jpg" alt="Cosmo" style="height: 200px; width:200px;">
         <br>
@@ -296,7 +310,7 @@ if ($conn->connect_error) {
                   This one's is an easy one, but take nothing away from it, its tasty. You know the drill
                   Pour your one ounce of gin, your one ounce of Sweet Red and your one ounce campari all into your sweet
                   cocktail shaker. Shake shake shake. Put in the glass. Garnish. Then last but not by no means least-<br>
-                  <b>ENJOY!</b><br>
+                  <b>ENJOY!</b><br></p>
                   <img src="Pictures/Cocktails/Negroni.jpg" alt="Negroni" style="height: 100px; width:100px;">
             </center>
           </div>
@@ -310,9 +324,13 @@ if ($conn->connect_error) {
         </div>
         <br>
         <br>
+        <br>
+        <br>
       <img src="Pictures/Cocktails/Negroni.jpg" alt="Negroni" style="height: 200px; width:200px;">
       <br>
-      <br>
+
+
+
 
       <!-- Trigger the modal with a button -->
       <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#side">Sidecar</button>
@@ -339,7 +357,7 @@ if ($conn->connect_error) {
                 put your Cognac in a cocktail shaker (WOW!). Put your lemon juice into the cocktail shaker (NO WAY!).
                 Add your triple sec into the very same cocktail shaker (I DONT BELIEVE IT!). Then guess what you do, you
                 shake it. Shake again. Do it once more just to be safe. Then strain into a cocktail glass and as always -<br>
-                <b>ENJOY!</b><br>
+                <b>ENJOY!</b><br></p>
                 <img src="Pictures/Cocktails/Negroni.jpg" alt="Negroni" style="height: 100px; width:100px;">
           </center>
         </div>
@@ -353,13 +371,13 @@ if ($conn->connect_error) {
       </div>
       <br>
       <br>
+
       <img src="Pictures/Cocktails/Sidecar.jpg" alt="Sidecar" style="height: 200px; width:200px;">
-</p>
+
 </div>
 
 
 <div id="Intermediate" class="tabcontent">
-  <div class="ParagraphCocktails"/>
   <p><h2><u>Intermediate</u></h2>
     <br>
     <br>
@@ -393,7 +411,7 @@ if ($conn->connect_error) {
               your glassware and dip the rims into first the syrup and then the sugar and then set your glass two one side.
               Now do your usual and add all your ingredients into a cocktail shaker with ice. Then do your now well-practiced
               shaking technique and shake the life out of your shaker. Then, as per usual, -<br>
-              <b>ENJOY!</b><br>
+              <b>ENJOY!</b><br></p>
               <img src="Pictures/Cocktails/Blue.jpg" alt="Negroni" style="height: 100px; width:100px;">
         </center>
       </div>
@@ -408,6 +426,8 @@ if ($conn->connect_error) {
     <br>
     <br>
     <img src="Pictures/Cocktails/Blue.jpg" alt="Blue Coconut" style="height: 200px; width:200px;">
+    <br>
+    <br>
     <br>
     <br>
 
@@ -439,7 +459,7 @@ if ($conn->connect_error) {
               If you want to dilute the cocktail a little bit, go ahead and add your club soda. To garnish,
               use a cherry and/or wedges of pineapple and orange. To make a f
               Pour your freshly made cocktail into a chilled glass, garnish with a lime and then all you do is<br>
-              <b>ENJOY!</b><br>
+              <b>ENJOY!</b><br></p>
               <img src="Pictures/Cocktails/Cake.png" alt="Cake" style="height: 100px; width:100px;">
         </center>
       </div>
@@ -453,6 +473,9 @@ if ($conn->connect_error) {
     </div>
     <br>
     <br>
+    <br>
+    <br>
+
 
     <img src="Pictures/Cocktails/cake.png" alt="Daiquiri" style="height: 200px; width:200px;">
     <br>
@@ -486,7 +509,7 @@ if ($conn->connect_error) {
               If you want to dilute the cocktail a little bit, go ahead and add your club soda. To garnish,
               use a cherry and/or wedges of pineapple and orange. To make a f
               Pour your freshly made cocktail into a chilled glass, garnish with a lime and then all you do is<br>
-              <b>ENJOY!</b><br>
+              <b>ENJOY!</b><br></p>
               <img src="Pictures/Cocktails/Cake.png" alt="Cake" style="height: 100px; width:100px;">
         </center>
       </div>
@@ -501,56 +524,450 @@ if ($conn->connect_error) {
     <br>
     <br>
     <img src="Pictures/Cocktails/Rainbow.jpg" alt="Rainbow Sangria" style="height: 200px; width:200px;">
-    <h3>Malibu Sunset</h3>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <!-- Trigger the modal with a button -->
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#mal">Malibu Sunset</button>
+    <!-- Modal -->
+    <div class="modal fade" id="mal" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Cake by the Ocean</h4>
+        </div>
+        <div class="modal-body">
+          <div class="Paragraph">
+            <center>
+              <h2>Cake by the Ocean</h2>
+            <p><b>Ingredients:</b><br>
+              2 oz Cake favoured Vodka<br>
+              2 oz Coconut rum<br>
+              2 oz Pineapple juice<br>
+              2 oz Orange Juice<br>
+              Club Soda<br>
+              *optional*: Simple Syrup, Maraschino cherries, sprinkles, pineaplle and orange slices<br>
+            </p>
+            <p><b>Instructions:</b><br>
+              The usual, add your Vodka, rum and two juices into a cocktail shaker with ice.
+              If you want to dilute the cocktail a little bit, go ahead and add your club soda. To garnish,
+              use a cherry and/or wedges of pineapple and orange. To make a f
+              Pour your freshly made cocktail into a chilled glass, garnish with a lime and then all you do is<br>
+              <b>ENJOY!</b><br></p>
+              <img src="Pictures/Cocktails/Cake.png" alt="Cake" style="height: 100px; width:100px;">
+        </center>
+      </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
     <img src="Pictures/Cocktails/Malibu.jpg" alt="malibu" style="height: 200px; width:200px;">
-</p>
+
 </div>
 </div>
 
 <div id="Expert" class="tabcontent">
-  <div class="ParagraphCocktails"/>
+  <center>
   <p><h2><u>Expert</u></h2>
-    <h3>Mai Tai</h3>
+    <br>
+    <br>
+
+    <!-- Trigger the modal with a button -->
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#mai">Mai Tai</button>
+    <!-- Modal -->
+    <div class="modal fade" id="mai" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Cake by the Ocean</h4>
+        </div>
+        <div class="modal-body">
+          <div class="Paragraph">
+            <center>
+              <h2>Cake by the Ocean</h2>
+            <p><b>Ingredients:</b><br>
+              2 oz Cake favoured Vodka<br>
+              2 oz Coconut rum<br>
+              2 oz Pineapple juice<br>
+              2 oz Orange Juice<br>
+              Club Soda<br>
+              *optional*: Simple Syrup, Maraschino cherries, sprinkles, pineaplle and orange slices<br>
+            </p>
+            <p><b>Instructions:</b><br>
+              The usual, add your Vodka, rum and two juices into a cocktail shaker with ice.
+              If you want to dilute the cocktail a little bit, go ahead and add your club soda. To garnish,
+              use a cherry and/or wedges of pineapple and orange. To make a f
+              Pour your freshly made cocktail into a chilled glass, garnish with a lime and then all you do is<br>
+              <b>ENJOY!</b><br></p>
+              <img src="Pictures/Cocktails/Cake.png" alt="Cake" style="height: 100px; width:100px;">
+        </center>
+      </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+    </div>
     <img src="Pictures/Cocktails/Mai.jpg" alt="Mai Tai" style="height: 200px; width:200px;">
-    <h3>Old-Fashioned</h3>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- Trigger the modal with a button -->
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#old">Old-Fashioned</button>
+    <!-- Modal -->
+    <div class="modal fade" id="old" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Cake by the Ocean</h4>
+        </div>
+        <div class="modal-body">
+          <div class="Paragraph">
+            <center>
+              <h2>Cake by the Ocean</h2>
+            <p><b>Ingredients:</b><br>
+              2 oz Cake favoured Vodka<br>
+              2 oz Coconut rum<br>
+              2 oz Pineapple juice<br>
+              2 oz Orange Juice<br>
+              Club Soda<br>
+              *optional*: Simple Syrup, Maraschino cherries, sprinkles, pineaplle and orange slices<br>
+            </p>
+            <p><b>Instructions:</b><br>
+              The usual, add your Vodka, rum and two juices into a cocktail shaker with ice.
+              If you want to dilute the cocktail a little bit, go ahead and add your club soda. To garnish,
+              use a cherry and/or wedges of pineapple and orange. To make a f
+              Pour your freshly made cocktail into a chilled glass, garnish with a lime and then all you do is<br>
+              <b>ENJOY!</b><br></p>
+              <img src="Pictures/Cocktails/Cake.png" alt="Cake" style="height: 100px; width:100px;">
+        </center>
+      </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+    </div>
     <img src="Pictures/Cocktails/Old.jpg" alt="Old Fashioned" style="height: 200px; width:200px;">
-    <h3>Alien Sky</h3>
+    <br>
+    <br>
+
+    <!-- Trigger the modal with a button -->
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#alien">Alien Sky</button>
+    <!-- Modal -->
+    <div class="modal fade" id="alien" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Cake by the Ocean</h4>
+        </div>
+        <div class="modal-body">
+          <div class="Paragraph">
+            <center>
+              <h2>Cake by the Ocean</h2>
+            <p><b>Ingredients:</b><br>
+              2 oz Cake favoured Vodka<br>
+              2 oz Coconut rum<br>
+              2 oz Pineapple juice<br>
+              2 oz Orange Juice<br>
+              Club Soda<br>
+              *optional*: Simple Syrup, Maraschino cherries, sprinkles, pineaplle and orange slices<br>
+            </p>
+            <p><b>Instructions:</b><br>
+              The usual, add your Vodka, rum and two juices into a cocktail shaker with ice.
+              If you want to dilute the cocktail a little bit, go ahead and add your club soda. To garnish,
+              use a cherry and/or wedges of pineapple and orange. To make a f
+              Pour your freshly made cocktail into a chilled glass, garnish with a lime and then all you do is<br>
+              <b>ENJOY!</b><br></p>
+              <img src="Pictures/Cocktails/Cake.png" alt="Cake" style="height: 100px; width:100px;">
+        </center>
+      </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+    </div>
     <img src="Pictures/Cocktails/Alien.jpg" alt="Alien Sky" style="height: 200px; width:200px;">
-    <h3>Chocolate Mintini</h3>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- Trigger the modal with a button -->
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#mint">Chocolate mintini</button>
+    <!-- Modal -->
+    <div class="modal fade" id="mint" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Cake by the Ocean</h4>
+        </div>
+        <div class="modal-body">
+          <div class="Paragraph">
+            <center>
+              <h2>Cake by the Ocean</h2>
+            <p><b>Ingredients:</b><br>
+              2 oz Cake favoured Vodka<br>
+              2 oz Coconut rum<br>
+              2 oz Pineapple juice<br>
+              2 oz Orange Juice<br>
+              Club Soda<br>
+              *optional*: Simple Syrup, Maraschino cherries, sprinkles, pineaplle and orange slices<br>
+            </p>
+            <p><b>Instructions:</b><br>
+              The usual, add your Vodka, rum and two juices into a cocktail shaker with ice.
+              If you want to dilute the cocktail a little bit, go ahead and add your club soda. To garnish,
+              use a cherry and/or wedges of pineapple and orange. To make a f
+              Pour your freshly made cocktail into a chilled glass, garnish with a lime and then all you do is<br>
+              <b>ENJOY!</b><br></p>
+              <img src="Pictures/Cocktails/Cake.png" alt="Cake" style="height: 100px; width:100px;">
+        </center>
+      </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+    </div>
     <img src="Pictures/Cocktails/Choco.jpg" alt="Chocolate Mintini" style="height: 200px; width:200px;">
-</p>
+
 </div>
+</center>
 </div>
 
 <div id="Summer" class="tabcontent">
-  <div class="ParagraphCocktails"/>
+  <center>
   <p><h2><u>Summer</u></h2>
-    <h3>Piña Colada</h3>
+    <br>
+    <br>
+
+    <!-- Trigger the modal with a button -->
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#pina">Piña Colada</button>
+    <!-- Modal -->
+    <div class="modal fade" id="pina" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Piña Colada</h4>
+        </div>
+        <div class="modal-body">
+          <div class="Paragraph">
+            <center>
+              <h2>Cake by the Ocean</h2>
+            <p><b>Ingredients:</b><br>
+              2 oz Cake favoured Vodka<br>
+              2 oz Coconut rum<br>
+              2 oz Pineapple juice<br>
+              2 oz Orange Juice<br>
+              Club Soda<br>
+              *optional*: Simple Syrup, Maraschino cherries, sprinkles, pineaplle and orange slices<br>
+            </p>
+            <p><b>Instructions:</b><br>
+              The usual, add your Vodka, rum and two juices into a cocktail shaker with ice.
+              If you want to dilute the cocktail a little bit, go ahead and add your club soda. To garnish,
+              use a cherry and/or wedges of pineapple and orange. To make a f
+              Pour your freshly made cocktail into a chilled glass, garnish with a lime and then all you do is<br>
+              <b>ENJOY!</b><br></p>
+              <img src="Pictures/Cocktails/Cake.png" alt="Cake" style="height: 100px; width:100px;">
+        </center>
+      </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+    </div>
     <img src="Pictures/Cocktails/Pina.jpg" alt="Piña Colada" style="height: 200px; width:200px;">
-    <h3>Cuba Libre</h3>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- Trigger the modal with a button -->
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#cuba">Cuba Libre</button>
+    <!-- Modal -->
+    <div class="modal fade" id="cuba" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Cake by the Ocean</h4>
+        </div>
+        <div class="modal-body">
+          <div class="Paragraph">
+            <center>
+              <h2>Cake by the Ocean</h2>
+            <p><b>Ingredients:</b><br>
+              2 oz Cake favoured Vodka<br>
+              2 oz Coconut rum<br>
+              2 oz Pineapple juice<br>
+              2 oz Orange Juice<br>
+              Club Soda<br>
+              *optional*: Simple Syrup, Maraschino cherries, sprinkles, pineaplle and orange slices<br>
+            </p>
+            <p><b>Instructions:</b><br>
+              The usual, add your Vodka, rum and two juices into a cocktail shaker with ice.
+              If you want to dilute the cocktail a little bit, go ahead and add your club soda. To garnish,
+              use a cherry and/or wedges of pineapple and orange. To make a f
+              Pour your freshly made cocktail into a chilled glass, garnish with a lime and then all you do is<br>
+              <b>ENJOY!</b><br></p>
+              <img src="Pictures/Cocktails/Cake.png" alt="Cake" style="height: 100px; width:100px;">
+        </center>
+      </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+    </div>
     <img src="Pictures/Cocktails/cuba.jpg" alt="Cuba Libre" style="height: 200px; width:200px;">
-    <h3>Hurricane</h3>
+    <br>
+    <br>
+
+    <!-- Trigger the modal with a button -->
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#hurr">Hurricane</button>
+    <!-- Modal -->
+    <div class="modal fade" id="hurr" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Cake by the Ocean</h4>
+        </div>
+        <div class="modal-body">
+          <div class="Paragraph">
+            <center>
+              <h2>Cake by the Ocean</h2>
+            <p><b>Ingredients:</b><br>
+              2 oz Cake favoured Vodka<br>
+              2 oz Coconut rum<br>
+              2 oz Pineapple juice<br>
+              2 oz Orange Juice<br>
+              Club Soda<br>
+              *optional*: Simple Syrup, Maraschino cherries, sprinkles, pineaplle and orange slices<br>
+            </p>
+            <p><b>Instructions:</b><br>
+              The usual, add your Vodka, rum and two juices into a cocktail shaker with ice.
+              If you want to dilute the cocktail a little bit, go ahead and add your club soda. To garnish,
+              use a cherry and/or wedges of pineapple and orange. To make a f
+              Pour your freshly made cocktail into a chilled glass, garnish with a lime and then all you do is<br>
+              <b>ENJOY!</b><br></p>
+              <img src="Pictures/Cocktails/Cake.png" alt="Cake" style="height: 100px; width:100px;">
+        </center>
+      </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+    </div>
+
     <img src="Pictures/Cocktails/Hurricane.jpg" alt="Hurricane" style="height: 200px; width:200px;">
-    <h3>Blackberry Mojito</h3>
+    <br>
+    <br>
+
+    <!-- Trigger the modal with a button -->
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#black">Blackberry Mojito</button>
+    <!-- Modal -->
+    <div class="modal fade" id="black" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Cake by the Ocean</h4>
+        </div>
+        <div class="modal-body">
+          <div class="Paragraph">
+            <center>
+              <h2>Cake by the Ocean</h2>
+            <p><b>Ingredients:</b><br>
+              2 oz Cake favoured Vodka<br>
+              2 oz Coconut rum<br>
+              2 oz Pineapple juice<br>
+              2 oz Orange Juice<br>
+              Club Soda<br>
+              *optional*: Simple Syrup, Maraschino cherries, sprinkles, pineaplle and orange slices<br>
+            </p>
+            <p><b>Instructions:</b><br>
+              The usual, add your Vodka, rum and two juices into a cocktail shaker with ice.
+              If you want to dilute the cocktail a little bit, go ahead and add your club soda. To garnish,
+              use a cherry and/or wedges of pineapple and orange. To make a f
+              Pour your freshly made cocktail into a chilled glass, garnish with a lime and then all you do is<br>
+              <b>ENJOY!</b><br></p>
+              <img src="Pictures/Cocktails/Cake.png" alt="Cake" style="height: 100px; width:100px;">
+        </center>
+      </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+    </div>
     <img src="Pictures/Cocktails/black.jpg" alt="Blackberry Mojito" style="height: 200px; width:200px;">
-</p>
+</center>
 </div>
 </div>
 <div id="Premium" class="tabcontent">
-  <div class="ParagraphCocktails"/>
+  <div class="Paragraph">
   <p><h2><u>Premium Content</u></h2>
     <img src="Pictures/lock.jpg" alt="Lock" style="height: 300px; width:300px;">
     <h2>Sorry!</h2>
-    <h3>This is content is for our Premium Members only!</h3>
+    <h3>This is content is for our Premium Members only!</h3></p>
 
+</p>
+</p>
+</p>
 </p>
 </div>
 </div>
 </div>
 </div>
 </center>
-<script>
-
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
